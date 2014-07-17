@@ -14,6 +14,16 @@ If the version is < 1.9.3 you need to install a local version (using rvm):
 curl -L https://get.rvm.io | bash -s stable --autolibs=enabled
 source ~/.profile
 rvm install --default ruby-2.1.2
+rvm cleanup all
 ```
 
 ###Fetch sources###
+```bash
+git clone git@github.com:LEAF-Bering-uClibc/website.git buc-website
+```
+
+###Jekyll installation###
+```bash
+cd buc-website
+bundle install
+```
