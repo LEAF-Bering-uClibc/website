@@ -1,0 +1,20 @@
+- name: LEAF
+  url: /
+
+- name: Bering
+  url: /bering
+
+- name: Bering uClibc
+  url: /bering-uclibc
+
+- name: Lince
+  url: /lince
+
+- name: Oxygen
+  url: /oxygen
+
+- name: WISP Dist
+  url: /wisp-dist
+
+- name: Developers
+  url: /devel

@@ -1,0 +1,148 @@
+@charset "utf-8";
+html, body, table {
+  font: normal normal normal medium serif;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  border: 0 none transparent;
+}
+
+h1, h2, h3, h4, h5, h6, dt, th {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: left;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+pre, code, tt, kbd, samp, var {
+  font: normal normal normal medium monospace;
+}
+
+kbd {
+  font-weight: bold;
+}
+
+pre {
+  white-space: pre;
+  overflow: auto;
+  background-color: #dcdcdc;
+  padding: .5em;
+  border-style: ridge;
+}
+
+form, input {
+  font: normal normal normal smaller sans-serif;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #003399;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+.text, .errortext, .largetext, .smalltext {
+  font: normal normal normal medium sans-serif;
+}
+
+.largetext {
+  font-size: larger;
+}
+
+.smalltext {
+  font-size: smaller;
+}
+
+.errortext {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+div#navbar {
+  margin: 0;
+  padding: .5em 0 .5em 0;
+  text-align: center;
+}
+
+div#navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+div#navbar li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font: normal bold normal smaller sans-serif;
+}
+
+div#navbar a {
+  margin: 3px;
+  padding: 3px 14px;
+  border: solid thin black;
+  text-decoration: none;
+}
+
+.admon {
+  font-size: smaller;
+  font-style: italic;
+  margin: 2em 2em 2em 2em;
+}
+
+.admon img {
+  float: left;
+  margin: 0em 1em 0em 0em;
+}
+
+.buildtool-genpage td {
+  vertical-align: top;
+}
+
+.buildtool-genpage dt {
+  margin-top: .3em;
+}
+
+.buildtool-genpage dd p, .buildtool-genpage td p {
+  margin: 0;
+}
+
+.horiz-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.horiz-list li {
+  display: inline;
+  margin: .2em 1em;
+}
+
+.tightlist {
+  margin: .5em .5em .5em 1em;
+  padding: .2em .2em .2em .2em;
+}
+
+.grid {
+  border: #efb240 .05em solid;
+}

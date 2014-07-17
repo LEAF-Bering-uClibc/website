@@ -1,0 +1,17 @@
+- name: Q-Box  - QoS Appliance
+  url: http://content.cs.luc.edu/projects/comp412/q-box
+
+- name: uClibc
+  url: http://www.uclibc.org
+
+- name: BusyBox
+  url: http://www.busybox.net
+
+- name: dnsmasq
+  url: http://thekelleys.org.uk/dnsmasq/doc.html
+
+- name: dropbear
+  url: http://matt.ucc.asn.au/dropbear/dropbear.html
+
+- name: shorewall
+  url: http://www.shorewall.net

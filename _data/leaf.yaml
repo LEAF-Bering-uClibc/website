@@ -1,0 +1,46 @@
+---
+- title: Main Menu
+  links:
+    - name: Home
+      url: /
+    
+    - name: Branches
+      url: http://leaf.sourceforge.net/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=2&MMN_position=16:16
+    
+    - name: Development
+      url: http://leaf.sourceforge.net/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=8&MMN_position=23:23
+    
+    - name: Documentation
+      url: http://leaf.sourceforge.net/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=4&MMN_position=18:18
+    
+    - name: Downloads
+      url: http://leaf.sourceforge.net/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=5&MMN_position=20:20
+    
+    - name: Support
+      url: http://leaf.sourceforge.net/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=6&MMN_position=21:21
+    
+    - name: Affiliates
+      url: http://leaf.sourceforge.net/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=3&MMN_position=17:17
+    
+    - name: Testimonials
+      url: http://leaf.sourceforge.net/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=7&MMN_position=22:22
+    
+- title: SourceForge
+  links:
+    - name: Summary
+      url: "http://sourceforge.net/projects/leaf/"
+
+    - name: Developers
+      url: "http://sourceforge.net/project/memberlist.php?group_id=13751"
+
+    - name: File Releases
+      url: "http://sourceforge.net/project/showfiles.php?group_id=13751"
+
+    - name: MediaWiki
+      url: "!buc_wiki_url!"
+
+    - name: Tickets
+      url: "http://sourceforge.net/p/leaf/tickets/?source=navbar"
+
+    - name: Git Repository
+      url: "https://sourceforge.net/p/leaf/bering-uclibc/?&amp;MMN_position=36:36"

@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div id="navbar">
+    <ul>
+      {% for item in site.data.navbar %}
+      {% assign item_leaf = item.url | replace_first: '/', '' | split: '/' | first | downcase %}
+      <li {% if item_leaf == leaf_version %}id="current"{% endif %}>
+        <a href="{{item.url}}" title="{{item.name}}">{{item.name}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</header>

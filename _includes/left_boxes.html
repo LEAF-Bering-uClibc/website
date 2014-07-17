@@ -1,0 +1,26 @@
+{% if leaf_version == empty %}
+      {% assign boxes = 'leaf' %}
+{%else%}
+      {% assign boxes = leaf_version %}
+{% endif %}
+{% for box in site.data[boxes] %}
+<table width="100%" cellspacing="0" cellpadding="5" style="border: thin solid black">
+  <tr>
+    <th class="bg_medium" style="border-bottom: thin solid black">{{ box.title }}</th>
+  </tr>
+  <tr>
+    <td>
+	  <table width="100%" cellspacing="0" cellpadding="2" border="0" class="text">
+        {% for link in box.links %}
+		<tr>
+		  <td nowrap="nowrap" align="left">
+			<a href="{{link.url | replace: '!buc_wiki_url!', site.buc_wiki_url | replace: '!leaf_site_url!', site.leaf_site_url}}">{{link.name}}</a>
+		  </td>
+		</tr>
+        {% endfor %}
+	  </table>
+	</td>
+  </tr>
+</table>
+<br>
+{% endfor %}

@@ -1,0 +1,61 @@
+---
+- title: Bering uClibc
+  links:
+    - name: Home
+      url: /
+    
+    - name: Changelog
+      url: "!buc_wiki_url!/Bering-uClibc_5.x_-_Changelog"
+    
+    - name: Packages 3.x
+      url: "!leaf_site_url!/bering-uclibc/index.php?module=pagemaster&amp;PAGE_user_op=view_page&amp;PAGE_id=12&amp;MMN_position=32:32"
+    
+    - name: Packages 4.x
+      url: "!leaf_site_url!/bering-uclibc/index.php?module=pagemaster&amp;PAGE_user_op=view_page&amp;PAGE_id=24&amp;MMN_position=41:41"
+    
+    - name: Packages 5.x
+      url: "!leaf_site_url!/bering-uclibc/index.php?module=pagemaster&amp;PAGE_user_op=view_page&amp;PAGE_id=30&amp;MMN_position=44:44"
+    
+    - name: Documentation 3.x
+      url: "!leaf_site_url!/doc"
+
+    - name: Documentation 4.x/5.x
+      url: "!buc_wiki_url!/"
+
+    - name: Versions
+      url: "/bering-uclibc/versions/"
+
+    - name: Buildtool
+      url: "/bering-uclibc/buildtool/"
+
+    - name: Download
+      url: "http://sourceforge.net/projects/leaf/files/Bering-uClibc/"
+
+    - name: Tickets
+      url: "http://sourceforge.net/p/leaf/tickets/?source=navbar"
+
+    - name: Git Repository
+      url: "https://sourceforge.net/p/leaf/bering-uclibc/?&amp;MMN_position=36:36"
+
+    - name: The Bering-uClibc Team
+      url: "/bering-uclibc/team/"
+
+- title: External Links
+  links:
+    - name: Q-Box  - QoS Appliance
+      url: http://content.cs.luc.edu/projects/comp412/q-box
+    
+    - name: uClibc
+      url: http://www.uclibc.org
+    
+    - name: BusyBox
+      url: http://www.busybox.net
+    
+    - name: dnsmasq
+      url: http://thekelleys.org.uk/dnsmasq/doc.html
+    
+    - name: dropbear
+      url: http://matt.ucc.asn.au/dropbear/dropbear.html
+    
+    - name: shorewall
+      url: http://www.shorewall.net

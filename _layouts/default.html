@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  {% assign leaf_version = page.url | replace_first: '/', '' | split: '/' | first | downcase %}
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+    <div class="page-content">
+      <table id="content" border="0" cellpadding="5" cellspacing="0" width="100%" summary="Layout table">
+        <tr>
+          <!-- BEGIN LEFTSIDE -->
+          <td width="15%" valign="top" align="center">
+            {% include left_boxes.html %}
+          </td>
+          <!-- END LEFTSIDE -->
+          <!-- BEGIN CONTENT -->
+          {{ content }}
+          <!-- END CONTENT -->
+        </tr>
+      </table>
+    </div>
+    {% include footer.html %}
+    {% include analytics.html %}
+    </body>
+</html>

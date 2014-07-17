@@ -1,0 +1,27 @@
+---
+layout: default
+---
+      <td valign="top" width="85%">
+        <div class="home">
+          <table width="100%" cellspacing="0" cellpadding="5" style="border: thin solid black">
+            <tr>
+              <th class="bg_medium" style="border-bottom: thin solid black">Announcements</th>
+            </tr>
+            <tr>
+              <td>
+                <div style="clear: both; margin: .2em">
+                  <div class="bg_light" style="padding: .2em; margin-bottom: 8px">
+                    <h3 style="margin: 0 .2em;">{{ page.title }}</h3>
+                    <ul class="smalltext" style="list-style-type: none; margin: 0 .2em; padding: 0">
+                      <li>Posted {% if page.author %}by: {{page.author}} {% endif %}on {{ page.date | date: "%d %B %Y" }}</li>
+                    </ul>
+                  </div>
+                  {% assign summary = page.excerpt %}
+                  <i>{{ summary }}</i>
+                  {{ content | remove: summary }}
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>

@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import url("/mod/phpwsrssfeeds/templates/style.css");
+
+div#navbar a {
+background-color: #66ccff; 
+}
+
+div#navbar a:link, div#navbar a:visited {
+color: #003399;
+}
+
+div#navbar a:hover {
+color: black;
+background-color: #3399cc;
+}
+
+div#navbar #current a:link, div#navbar #current a:visited, div#navbar #current a:hover {
+color: black;
+background-color: #3399cc;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.bg_dark {
+  background-color: #006699;
+}
+
+.bg_medium {
+  background-color: #3399cc;
+}
+
+.bg_light {
+  background-color: #66ccff;
+}
+
+.alt_bg_dark {
+  background-color: #003399;
+}
+
+.alt_bg_medium {
+  background-color: #3366cc;
+}
+
+.alt_bg_light {
+  background-color: #6699ff;
+}

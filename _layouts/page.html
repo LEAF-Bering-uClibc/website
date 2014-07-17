@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<td valign="top" width="85%">
+  <div class="home">
+    <table width="100%" cellspacing="0" cellpadding="5" style="border: thin solid black">
+      <tr>
+        <th class="bg_medium" style="border-bottom: thin solid black">{{page.title}}</th>
+      </tr>
+      <tr>
+        <td>
+          {{ content }}
+        </td>
+      </tr>
+    </table>
+    {% assign page_name = page.path | split: '/' | last | downcase | split: '.' | first %}
+    {% if page_name == 'index' %}
+    {% assign leaf_version = page.url | replace_first: '/', '' | split: '/' | first | downcase %}
+    <!-- BEGIN POST -->
+    {% if site.categories[leaf_version] %}
+    <br>
+    <table width="100%" cellspacing="0" cellpadding="5" style="border: thin solid black">
+      <tr>
+        <th class="bg_medium" style="border-bottom: thin solid black">Announcements</th>
+      </tr>
+      <tr>
+        <td>
+          {% for post in site.categories[leaf_version] limit:5 %}
+          <div style="clear: both; margin: .2em;">
+            <div class="bg_light" style="padding: .2em;">
+              <h3 style="margin: 0 .2em;">{{ post.title }}</h3>
+              <ul class="smalltext" style="list-style-type: none; margin: 0 .2em; padding: 0">
+                <li>Posted {% if post.author %}by: {{post.author}} {% endif %}on {{ post.date | date: "%d %B %Y" }}</li>
+              </ul>
+            </div>
+            {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+            <ul class="horiz-list smalltext" style="text-align: right;">
+              <li><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></li>
+            </ul>
+          </div>
+          {% endfor %}
+        </td>
+      </tr>
+    </table>
+    {% endif %}
+    <!-- END POST -->
+    {% endif %}
+  </div>
+</td>
