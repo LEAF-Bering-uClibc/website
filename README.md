@@ -27,3 +27,8 @@ git clone git@github.com:LEAF-Bering-uClibc/website.git buc-website
 cd buc-website
 bundle install
 ```
+
+###Start jekyll
+```bash
+jekyll serve -w
+```
