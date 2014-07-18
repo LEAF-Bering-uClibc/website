@@ -23,6 +23,11 @@ git clone git@github.com:LEAF-Bering-uClibc/website.git buc-website
 ```
 
 ###Jekyll installation###
+You need the _bundle_ command to install jekyll. If you don't have it install it:
+```bash
+gem install bundler
+```
+Install jekyll:
 ```bash
 cd buc-website
 bundle install
