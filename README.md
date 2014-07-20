@@ -9,7 +9,7 @@ jekyll need ruby >= 1.9.3. Get the version of ruby in your system:
 ```bash
 ruby --version
 ````
-If the version is < 1.9.3 you need to install a local version (using rvm):
+If the version is < 1.9.3 you need to install new version (using [RVM][]). With [RVM][] you don't need to change anything on your system (except adding some libraries to build ruby). [RVM][] is used to install a specific version of ruby under the home directory of the user:
 ```bash
 curl -L https://get.rvm.io | bash -s stable --autolibs=enabled
 source ~/.profile
@@ -37,3 +37,5 @@ bundle install
 ```bash
 jekyll serve -w
 ```
+
+[RVM]: https://rvm.io/
