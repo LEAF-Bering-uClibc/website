@@ -1,0 +1,36 @@
+---
+layout: post
+title: LEAF Bering-uClibc 4.1
+author: kapeka
+---
+The final release of Bering-uClibc 4.1 has no major changes compared to the relaese candidate.                                              The version number has been fixed and hotplug.sh has been added to initrd - we missed that for rc1.  The changes since 4.0 are slightly more impressive:   
+
+<p>
+4.1 provdies a kernel update and more than a dozen packages has been updated to latest upstream versions.                                  
+</p>
+<p>                                                                                                                                           
+For the first time dhcpv6 is supported (you can choose between dhpcd and dibbler) and support for MODBUS has been added.                                                                                                                     
+</p>                                                                                                                                
+<p>
+About 6 Trac tickets has been closed, plus a few other mostly minor fixes.                                                                                                                               </p>
+<p>
+Also a history has been added to the shell, also a more capable mail system, and finally initrd can be rebuild on a LEAF router, to get rid of unnecessary modules or to add new ones to the boot environment (though this process is (yet?) not automated).
+</p>
+<p>
+Under the hood the build environment has received updates to keep it working on current distributions and to alleviate the work on packages.        
+</p>
+
+See
+<a href="{{ site.buc_wiki_url }}/Bering-uClibc_4.x_-_Changelog">Bering-uClibc_4.x_-_Changelog</a> 
+ for a complete Changelog. 
+ The available images are: 
+<ul>
+<li>Bering-uClibc_4.1_geode_syslinux_ser.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards)</li>
+<li>Bering-uClibc_4.1_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
+<li>Bering-uClibc_4.1_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
+<li>Bering-uClibc_4.1_i686_syslinux_vga.tar.gz - optimized for i686 CPU with VGA interface to load from hd/cf</li>
+<li>Bering-uClibc_4.1_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
+<li>Bering-uClibc_4.1_i486_syslinux_ser.tar.gz - optimized for i486 CPU with serial interface (e.g. WRAP boards)</li>
+<li>Bering-uClibc_4.1_src.tar - the complete sources tarball (as required by SF)</li>
+</ul>
+ You'll find all these at: <a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/</a>

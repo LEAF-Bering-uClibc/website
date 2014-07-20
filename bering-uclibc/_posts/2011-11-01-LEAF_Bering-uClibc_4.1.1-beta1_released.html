@@ -1,0 +1,26 @@
+---
+layout: post
+title: LEAF Bering-uClibc 4.1.1-beta1 released
+author: kapeka
+---
+Bering-uClibc 4.1.1-beta provides bugfixes for a dozen of packages.  The new packages are compatible with Bering-uClibc 4.1, so you update packages individually instead of a complete new installation.   The most important changes are the update of openssl to 1.0.0.e, a squid version with ipv6 support and the newly added packages clamav and havp (based on the contributions by Alejandro Dguez for Bering-uClibc 3.x).                                                                                                   Also the Trac tickets #61, #62 and #63 has been closed as fixed.
+
+<p>
+The packages squid.lrp, havp.lrp and clamav.lrp adds the capability for  Bering-uClibc 4.x to be used as a http proxy. Hopefully as easy, as deplyoing as a LEAF-based router - just another Linux Embedded Appliance.
+</p>
+<p>
+See
+<a href="{{ site.buc_wiki_url }}/Bering-uClibc_4.x_-_Changelog">Bering-uClibc_4.x_-_Changelog</a> 
+ for a complete Changelog. 
+ The available images are: 
+<ul>
+<li>Bering-uClibc_4.1.1-beta1_geode_syslinux_ser.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards)</li>
+<li>Bering-uClibc_4.1.1-beta1_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
+<li>Bering-uClibc_4.1.1-beta1_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
+<li>Bering-uClibc_4.1.1-beta1_i686_syslinux_vga.tar.gz - optimized for i686 CPU with VGA interface to load from hd/cf</li>
+<li>Bering-uClibc_4.1.1-beta1_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
+<li>Bering-uClibc_4.1.1-beta1_i486_syslinux_ser.tar.gz - optimized for i486 CPU with serial interface (e.g. WRAP boards)</li>
+<li>Bering-uClibc_4.1.1-beta1_src.tar - the complete sources tarball (as required by SF)</li>
+</ul>
+ You'll find all these at: <a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/</a>
+</p>

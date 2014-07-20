@@ -1,0 +1,41 @@
+---
+layout: post
+title: LEAF Bering-uClibc 5.0 beta1 released
+author: kapeka
+---
+After more than one year of developement the LEAF Bering-uClibc team announces the first beta version of LEAF Bering-uClibc 5.0. <p> Bering-uClibc 5.0 is basically Bering-uClibc 4.x brought up to date with the latest versions of the main software components. But the most important changes are: <ul>  <li>The Linux kernel is upgraded from 2.6.x to a recent long-term release (3.4.34)</li> <li>The uClibc library is upgraded from 0.9.30 to 0.9.32.</li> <li>The toolchain (formerly known as buildenv) has been reworked to support more processors. Currently only images for X86_64 images are provided, but as a proof-of-concept an arm-versatile based version can be build as well.</li> <li>Usage of the toolchain has been alleviated in various aspects.</li> </ul> </p>
+
+We've enabled more busybox applets (applets ifenslave, vconfig, bunzip2, unlzma, lzma, modinfo,setserial, beep, chat, mpstat, pstree, watch, nohup) and enabled verbose help messages for busybox applets.
+<p>
+zram support has been added (See the Bering-uClibc 5.x User Guide "Configuring leaf.cfg" for more details).</p>
+<p>Work on Bering-uClibc 5.x started in October 2011, with Andrew as the lead developer and contributions from kapeka, Erich Titl, davidMbrooke and Yves Blusseau among others.</p> 
+
+<p>For bug reports, requests, etc. please use TRAC:
+<a href="http://sourceforge.net/apps/trac/leaf/">http://sourceforge.net/apps/trac/leaf/</a>
+</p>
+<p>See also
+<a href="{{ site.buc_wiki_url }}/Bering-uClibc_5.x_-_Changelog">Bering-uClibc_5.x_-_Changelog</a>
+for a complete Changelog.</p>
+
+<p>Find new images optimized for different architectures in the FRS:
+<a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/</a>
+<ul>
+<li>Bering-uClibc_5.0-beta1_geode_syslinux_ser.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards) </li>
+
+<li>Bering-uClibc_5.0-beta1_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
+
+<li>Bering-uClibc_5.0-beta1_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
+
+<li>Bering-uClibc_5.0-beta1_i686_syslinux_vga.tar.gz - optimized for i686 CPU with VGA interface to load from hd/cf</li>
+
+<li>Bering-uClibc_5.0-beta1_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
+
+<li>Bering-uClibc_5.0-beta1_x86_64_isolinux_vga.iso - CD image optimized for 64bit systems  with VGA interface</li>
+
+<li>Bering-uClibc_5.0-beta1_x86_64_syslinux_vga.iso - optimized for
+64bit systems  with VGA interface to load from hd/cf</li>
+
+<li>Bering-uClibc_5.0-beta1_src.tar - the complete sources tarball (as
+required by SF)</li>
+</ul>
+</p>

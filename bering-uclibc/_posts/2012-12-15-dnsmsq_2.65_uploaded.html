@@ -1,0 +1,7 @@
+---
+layout: post
+title: dnsmsq 2.65 uploaded
+author: kapeka
+---
+It was noticed that 2.64 contains a nasty regression: it doesn't actually cache DNS queries at all. An oversight in the max-cache-ttl patch means that the cached TTL was always set to zero.  This affects users of LEAF Bering-uClibc 4.3.2.  A new upstream version 2.65 which fixes this and the other two bugs found since the 2.64 has been added to the git repository and is additionally available from the Packages page for 4.x.  <a href="http://leaf.sourceforge.net/bering-uclibc/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=24&MMN_position=41:41">http://leaf.sourceforge.net/bering-uclibc/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=24&MMN_position=41:41</a>  
+

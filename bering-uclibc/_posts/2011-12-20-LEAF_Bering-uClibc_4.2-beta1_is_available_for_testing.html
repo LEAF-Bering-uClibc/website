@@ -1,0 +1,29 @@
+---
+layout: post
+title: LEAF Bering-uClibc 4.2-beta1 is available for testing
+author: kapeka
+---
+The first beta version of LEAF Bering-uClibc 4.2 provides the first results of a long outstanding kernel review. We've added extensions for ipv6 (like Privacy Extension), improved the ipsec support for ipv4, added missing netfilter modules, removed debug code and optimized the i686 kernel for speed instead of size beyond other changes. 
+
+<p>
+A lot of changes has been made to the geode flavour using the hardware capabilities of the platform.
+</p>
+<p>
+The net result of the changes are a noticeble smaller kernel and initrd for the geode flavour, small improvements in size for the i486 based release and a slightly bigger i686 release, due to speed improvements.
+</p>
+<p>
+See
+<a href="{{ site.buc_wiki_url }}/Bering-uClibc_4.x_-_Changelog">Bering-uClibc_4.x_-_Changelog</a> 
+ for a complete Changelog. 
+ The available images are: 
+<ul>
+<li>Bering-uClibc_4.2-beta1_geode_syslinux_ser.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards)</li>
+<li>Bering-uClibc_4.2-beta1_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
+<li>Bering-uClibc_4.2-beta1_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
+<li>Bering-uClibc_4.2-beta1_i686_syslinux_vga.tar.gz - optimized for i686 CPU with VGA interface to load from hd/cf</li>
+<li>Bering-uClibc_4.2-beta1_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
+<li>Bering-uClibc_4.2-beta1_i486_syslinux_ser.tar.gz - optimized for i486 CPU with serial interface (e.g. WRAP boards)</li>
+<li>Bering-uClibc_4.2-beta1_src.tar - the complete sources tarball (as required by SF)</li>
+</ul>
+ You'll find all these at: <a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/</a>
+</p>

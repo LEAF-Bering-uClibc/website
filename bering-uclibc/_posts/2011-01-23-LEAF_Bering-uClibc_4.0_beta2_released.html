@@ -1,0 +1,34 @@
+---
+layout: post
+title: LEAF Bering-uClibc 4.0 beta2 released
+author: kapeka
+---
+As of today the second beta of Bering-uClibc 4.0 is availabe for download. It contains kernel and package updates and bugfixes for beta1.   Most notable changes are:  <ul> <li>The Linux kernel has been updated to 2.6.35.10</li> <li>busybox has been updated to 1.18.2</li> <li>Introducing shorewall-lite and shorewall6-lite</li> <li>A new image Bering-uClibc_i486_syslinux_ser (e.g for WRAP boards) is provided</li> <li>Bootstrapping into tmpfs for rootfs again (like Bering-uClibc3 releases); default size for root is 40MB</li> <li>Added missing lwp files for webconf</li> </ul>
+
+See also<p>
+<a href="{{ site.buc_wiki_url }}/Bering-uClibc_4.x_-_Changelog">Bering-uClibc_4.x_-_Changelog</a>
+</p>
+
+for a complete Changelog.
+<p>
+The available images are:
+<ul>
+<li>Bering-uClibc_4.0-beta2_geode_syslinux_ser.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards)</li>
+
+<li>Bering-uClibc_4.0-beta2_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
+
+<li>Bering-uClibc_4.0-beta2_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
+
+<li>Bering-uClibc_4.0-beta2_i686_syslinux_vga.tar.gz - optimized for i686 CPU with VGA interface to load from hd/cf</li>
+
+<li>Bering-uClibc_4.0-beta2_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
+
+<li>Bering-uClibc_4.0-beta2_i486_syslinux_ser.tar.gz - optimized for i486 CPU with serial interface (e.g. WRAP boards</li>
+
+<li>Bering-uClibc_4.0-beta2_src.tar - the complete sources tarball (as
+required by SF)</li>
+</ul>
+
+You'll find all these in FRS:
+<a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/</a>
+</p>

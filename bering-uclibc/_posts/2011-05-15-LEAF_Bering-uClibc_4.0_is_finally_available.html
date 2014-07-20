@@ -1,0 +1,43 @@
+---
+layout: post
+title: LEAF Bering-uClibc 4.0 is finally available
+author: kapeka
+---
+After more than a year of development, three beta versions and one release candidate,the Bering-uClibc team releases the new major version Bering-uClibc 4.0. <p> The biggest changes from the 3.x versions are: </p> <p> <ul> <li>The Linux kernel is upgraded from 2.4.x to 2.6.x (current 4.0 version uses longterm 2.6.35 kernel branch).</li> <li>The Shorewall package is upgraded from 3.x to 4.x.</li>                                                                           <li>The uClibc library is upgraded from 0.9.28 to 0.9.30.</li> </ul> </p> <p> The main disadvantage is that the distribution is much larger which means it no longer has any chance of being hosted          on floppy disk media. The main advantages are:                                                                                 <ul> <li>Proper stateful connection tracking for IPv6 is only supported from kernel version 2.6.24 onwards.</li> <li>Fully supported MSI/MSI-X interrupts handling, also supported RPS/RFS - that makes LEAF useful for high-performance routers/BRAS.</li> <li>Kernel-mode PPTP server and client (accel-pptp) will highly improve performance of PPTP data transferring and reduce CPU load.</li> <li>Hardware-specific kernel module loading has been partially automated, resulting in less of a requirement to understand which combination of modules is required on a particular hardware platform.</li>                              <li>The upgraded version of Shorewall requires a full installation of the Perl interpreter. This makes it possible to run other services which require Perl.</li> </ul> </p>
+
+As expected after a long beta cycle and one Bering-uClibc RC, the final version provides only a few bugfixes and finetuning.                                                       
+
+<p>
+The notable changes for Bering-uClibc 4.0 final are:                                                                          
+<ul>
+<li>added RCDLINKS to /etc/init.d/ipsec (Trac ticket #42)</li>
+<li>added lp and ppdev modules to restore 3.x functionality for p9100 print server (Trac ticket #45)</li>
+<li>Fixed booting i486 kernel on Advantech ARK-1310 (+ possible other EVA-X4150 based) boards</li>
+</ul></p>
+
+See also<p>
+<a href="{{ site.buc_wiki_url }}/Bering-uClibc_4.x_-_Changelog">Bering-uClibc_4.x_-_Changelog</a>
+</p>
+for a complete Changelog.
+<p>
+The available images are:
+<ul>
+<li>Bering-uClibc_4.0_geode_syslinux_ser.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards)</li>
+
+<li>Bering-uClibc_4.0_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
+
+<li>Bering-uClibc_4.0_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
+
+<li>Bering-uClibc_4.0_i686_syslinux_vga.tar.gz - optimized for i686 CPU with VGA interface to load from hd/cf</li>
+
+<li>Bering-uClibc_4.0_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
+
+<li>Bering-uClibc_4.0_i486_syslinux_ser.tar.gz - optimized for i486 CPU with serial interface (e.g. WRAP boards</li>
+
+<li>Bering-uClibc_4.0_src.tar - the complete sources tarball (as
+required by SF)</li>
+</ul>
+
+You'll find all these in FRS:
+<a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/</a>
+</p>

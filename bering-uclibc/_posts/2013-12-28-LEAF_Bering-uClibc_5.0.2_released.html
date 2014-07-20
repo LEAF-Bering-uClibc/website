@@ -1,0 +1,43 @@
+---
+layout: post
+title: LEAF Bering-uClibc 5.0.2 released
+author: kapeka
+---
+At the end of a successful year for LEAF Bering-uClibc, version 5.0.2 has been released on 28 Dec. <p> LEAF Bering-uClibc 5.0.2 updates the Linux kernel version to 3.4.74, introduces a new package ddclient with freedns support as replacement for ezipupdate, stabilizes shorewall logging using ulogd (finally! ulogd has been the default log target in the 3.x series) and provides updates to latest upstream versions for numerous packages, as well as usual bugfixes.  </p>
+
+<p>
+As one of the most important fixes, we like to point to the fix for the e3 editor showing garbage on 64-bit systems.
+</p>
+<p>
+Amongst the package updates, we'd like to highlight the move to libusb 1.x, while we still provide a new package libusb-compat for packages, that are still based on libusb 0.x like the nut usb-driver package. 
+</p>
+<p>
+Not really a new feature, but worth a note, is the replacement of the old ascii splash image with a new boot logo showing the recent LEAF logo for the iso images. You can also stop the boot process at that point to adjust the boot commandline.
+</p>
+
+<p>See also
+<a href="{{ site.buc_wiki_url }}/Bering-uClibc_5.x_-_Changelog">Bering-uClibc_5.x_-_Changelog</a>
+for a complete Changelog.</p>
+
+<p>Find new images optimized for different architectures in the FRS:
+<a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/</a>
+<ul>
+<li>Bering-uClibc_5.0.2_geode_syslinux_ser.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards) </li>
+
+<li>Bering-uClibc_5.0.2_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
+
+<li>Bering-uClibc_5.0.2_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
+
+<li>Bering-uClibc_5.0.2_i686_syslinux_vga.tar.gz - optimized for i686 CPU with VGA interface to load from hd/cf</li>
+
+<li>Bering-uClibc_5.0.2_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
+
+<li>Bering-uClibc_5.0.2_x86_64_isolinux_vga.iso - CD image optimized for 64bit systems  with VGA interface</li>
+
+<li>Bering-uClibc_5.0.2_x86_64_syslinux_vga.iso - optimized for
+64bit systems  with VGA interface to load from hd/cf</li>
+
+<li>Bering-uClibc_5.0.2_src.tgz - the complete sources tarball (as
+required by SF)</li>
+</ul>
+</p>

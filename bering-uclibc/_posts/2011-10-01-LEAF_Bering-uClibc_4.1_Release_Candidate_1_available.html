@@ -1,0 +1,27 @@
+---
+layout: post
+title: LEAF Bering-uClibc 4.1 Release Candidate 1 available
+author: kapeka
+---
+The Bering-uClibc team released today the first (and most probably only) release candidate for Bering-uClibc 4.1. Most notably it provides an updated dhcp with ipv6 support and a new package with licenses to satisfy the demands of open source packages used in the distribution.
+
+<p>
+The license package (license.lrp) is loaded by default for every image. The packages are build with a link to the relevant license (see /var/lib/lrpkg/packagename.license). We are not through yet - this is ongoing work.
+</p>
+<p>
+The release candidate also provides a fix for procps.sh and some more updated packages (tor, shorewall..) plus a script that adds hotplugging support.
+</p>
+See
+<a href="{{ site.buc_wiki_url }}/Bering-uClibc_4.x_-_Changelog">Bering-uClibc_4.x_-_Changelog</a> 
+ for a complete Changelog. 
+ The available images are: 
+<ul>
+<li>Bering-uClibc_4.1-rc1_geode_syslinux_ser.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards)</li>
+<li>Bering-uClibc_4.1-rc1_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
+<li>Bering-uClibc_4.1-rc1_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
+<li>Bering-uClibc_4.1-rc1_i686_syslinux_vga.tar.gz - optimized for i686 CPU with VGA interface to load from hd/cf</li>
+<li>Bering-uClibc_4.1-rc1_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
+<li>Bering-uClibc_4.1-rc1_i486_syslinux_ser.tar.gz - optimized for i486 CPU with serial interface (e.g. WRAP boards)</li>
+<li>Bering-uClibc_4.1-rc1_src.tar - the complete sources tarball (as required by SF)</li>
+</ul>
+ You'll find all these at: <a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/</a>

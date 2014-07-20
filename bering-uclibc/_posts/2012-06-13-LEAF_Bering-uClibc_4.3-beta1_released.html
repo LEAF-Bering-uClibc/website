@@ -1,0 +1,42 @@
+---
+layout: post
+title: LEAF Bering-uClibc 4.3-beta1 released
+author: kapeka
+---
+The list of new features in Bering-uClibc-4.3-beta1 is the longest since 4.0 has been introduced more than one year ago.  First of all it comes with the long-awaited Package Dependency Auto-Loading enhancement The new behaviour is that when loading a Package, either using apkg or by including a Package in the LRP variable in leaf.cfg, all those Packages required to successfully run the Package are also loaded,  automatically.
+
+<p>A few more words about this enhancement are needed as this really new to our package management.
+Actually there are some exceptions to the "...all those Packages..." rule: 
+<li>
+<ul>Some Packages rely on either one Package or another one. An example is webconf: 
+This needs a web server, but is happy with either an HTTP server (mhttpd) or an HTTPS server (mhttpds), and these are mutually exclusive - so which one to choose? The answer is neither; one or the other must be loaded manually.</ul>
+<ul>Some Packages do not need extra Packages for their main operation but they do require shared libraries or similar in order to run some rarely-used utility programs. These "optional" Package dependencies are not included in the list to be loaded automatically. </ul>
+<ul>One thing to be aware of is that each Package tries to load its own dependencies (after the requested Package is loaded), and this happens recursively. Where many Packages depend on the same library (libm is a good example) then they all try to load libm. After the dependency has been loaded once the Package loading code spots that the Package is already loaded and does not actually load it again, but you will see messages which show that there has been a repeated request to load a Package.</ul>
+</li>
+</p>
+<p>
+Another welcome improvement is the new dnsmasq version, which not only provides a dhcpd6 server, but also simple router advertisement features. Thus you may save space and RAM while replacing radvd with 
+dnsmasqs new capabilities.
+</p>
+<p>
+Also the The Apple Filing Protocol (AFP) server enhancement requested has been addressed by adding the netatalk Package as well as the request for conntrack-tools.
+</p>
+<p>
+And finally we've added a new package for NDP Proxy Daemon and of course the usual package updates to new upstream versions.
+</p>
+<p>
+See
+<a href="{{ site.buc_wiki_url }}/Bering-uClibc_4.x_-_Changelog">Bering-uClibc_4.x_-_Changelog</a> 
+ for a complete Changelog. 
+ The available images are: 
+<ul>
+<li>Bering-uClibc_4.3-beta1_geode_syslinux_ser.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards)</li>
+<li>Bering-uClibc_4.3-beta1_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
+<li>Bering-uClibc_4.3-beta1_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
+<li>Bering-uClibc_4.3-beta1_i686_syslinux_vga.tar.gz - optimized for i686 CPU with VGA interface to load from hd/cf</li>
+<li>Bering-uClibc_4.3-beta1_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
+<li>Bering-uClibc_4.3-beta1_i486_syslinux_ser.tar.gz - optimized for i486 CPU with serial interface (e.g. WRAP boards)</li>
+<li>Bering-uClibc_4.3-beta1_src.tar - the complete sources tarball (as required by SF)</li>
+</ul>
+You'll find all these at: <a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/</a>
+</p>
