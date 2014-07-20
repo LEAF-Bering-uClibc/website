@@ -1,5 +1,6 @@
 ---
 title: LEAF Bering-uClibc 5.0.5-rc1 released
+author: kapeka
 layout: post
 ---
 LEAF Bering-uClibc 5.0.5-rc1 has been released on July 12 2014.
