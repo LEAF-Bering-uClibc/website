@@ -5,7 +5,7 @@
       url: /
     
     - name: Branches
-      url: http://leaf.sourceforge.net/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=2&MMN_position=16:16
+      url: /leaf/branches/
     
     - name: Development
       url: http://leaf.sourceforge.net/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=8&MMN_position=23:23

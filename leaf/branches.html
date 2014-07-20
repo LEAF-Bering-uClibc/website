@@ -1,0 +1,24 @@
+---
+title: Branches
+layout: page
+---
+<h3>Current Releases / Branches</h3>
+
+<dl><dt><a href="/bering">Bering</a></dt><dd>This release uses the 2.4.x kernel series and iptables for filtering and firewalling. Bering was based off of Dachstein, so much of the functionality is very similar between these two branches. However, there are several notable differences between several of the packages and the network configuration (which was redone from scratch). The Shorewall firewall is built in for firewalling and filtering with iptables.</dd>
+<dt><a href="/bering-uclibc">Bering-uClibc</a></dt><dd>LEAF Bering-uClibc is based on the well-known Bering distribution from Jacques Nilo and Erik Wolzak and provide the same features and functionality in the base. Anyway there are some differences with the original Bering release. The biggest difference is that all binaries have been compiled with uClibc instead of glibc 2.0.7; but Bering-uClibc also supports ipv6, uses the latest sources, has some improvements and is significantly smaller. Read the Changelog for the exact differences and changes.</dd>
+<dt><a href="/lince">Lince</a></dt><dd>Pending</dd>
+<dt><a href="/oxygen">Oxygen</a></dt><dd>Oxygen was designed to be used not only as a firewall, but also as a network debugging tool or a system rescue disk. It includes several powerful tools that are not found in other releases such as apkg and auto-loading of packages. Glibc is updated to version 2.1.3 and Oxygen supports loading extra packages from an IDE drive, a cdrom, a remote server, and additional data floppies. There are several preconfigured add-on floppies for general setups such as a firewall, network utilities, rescue disk, ie... and you can make your own custom add-on disk as well. Oxygen has been hardened for security, but does not offer built-in firewall capabilities with the bootdisk. You will need to add a firewall package, or use the firewall add-on disk for this capability.</dd>
+<dt><a href="/wisp-dist">WISP-Dist</a></dt><dd>WISP-Dist is a modular embedded Linux distribution for wireless routers, but can be used for other purposes as well. The entire system fits in 8 MB flash/16 MB RAM. Highlights include an easy-to-use menu interface, command line access, an Access Point mode (on selected cards), OSPF/RIPv2, bandwidth shaping, NAT, Layer 3 (proxy arp) bridging, and other goodies. The goal is to create an open, customizable, and easy-to-use solution for wireless routers.</dd></dl>
+
+<h3>Branch Derivation</h3>
+
+<img width="504" height="474" border="0" src="/images/release-branch-flow.png" alt="Branch Derivation Flowchart" usemap="#map" /><map id="map" name="map"><area shape="rect" coords="71,171,176,211" href="/oxygen/" alt="Oxygen" /><area shape="rect" coords="161,311,351,351" href="/bering/" alt="Bering" /><area shape="rect" coords="21,405,164,446" href="/wisp-dist/" alt="WISP Dist" /><area shape="rect" coords="311,352,422,391" href="/bering-uclibc/" alt="Bering uClibc" /><area shape="rect" coords="181,391,298,445" href="/lince/" alt="Lince" /></map>
+
+<div class="smalltext" style="clear: both">
+
+<ul style="float: left; margin: 0; padding: 0; list-style: none">
+<li>Created on 2004-03-08 07:38:15 by mhnoyes</li>
+<li>Updated on 2004-12-16 09:35:07 by mhnoyes</li>
+</ul>
+
+</div>
