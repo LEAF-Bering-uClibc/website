@@ -20,7 +20,7 @@ More than 200 packages are available, to extend LEAF Bering-uClibc with capabili
 
 The [Packages page](http://leaf.sourceforge.net/bering-uclibc/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=12&MMN_position=32:32) contains a list of currently available packages.
 
-Please take a look at the [Changelog section]({{site.buc_wiki_url}}/Bering-uClibc_5.0.x_-_Changelog) to read about the latest changes on the base images.
+Please take a look at the [Changelog section]({{site.buc_wiki_url}}/Bering-uClibc_5.1.x_-_Changelog) to read about the latest changes on the base images.
  
 Sourcecode
 ----------
