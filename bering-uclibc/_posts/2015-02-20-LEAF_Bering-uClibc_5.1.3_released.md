@@ -15,7 +15,7 @@ See also
 for a complete Changelog.</p>
 
 <p>Find new images optimized for different architectures in the FRS:
-<a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/</a>
+<a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/Bering-uClibc/5.1.3</a>
 <ul>
 <li>Bering-uClibc_5.1.3_geode_syslinux_ser.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards) </li>
 
