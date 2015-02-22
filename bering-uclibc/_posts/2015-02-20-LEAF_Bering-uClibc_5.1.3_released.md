@@ -12,7 +12,7 @@ The web interface (webconf) has received a lot of polish, fixes and new pages fo
 
 See also
 <a href="{{ site.buc_wiki_url }}/Bering-uClibc_5.1.x_-_Changelog">Bering-uClibc_5.1.x_-_Changelog</a>
-for a complete Changelog.</p>
+for a complete Changelog.
 
 <p>Find new images optimized for different architectures in the FRS:
 <a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/Bering-uClibc/5.1.3</a>
@@ -35,4 +35,3 @@ for a complete Changelog.</p>
 <li>Bering-uClibc_5.1.3_src.tgz - the complete sources tarball (as
 required by SF)</li>
 </ul>
-</p>
