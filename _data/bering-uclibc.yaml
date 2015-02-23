@@ -14,7 +14,7 @@
       url: "!leaf_site_url!/bering-uclibc/index.php?module=pagemaster&amp;PAGE_user_op=view_page&amp;PAGE_id=24&amp;MMN_position=41:41"
     
     - name: Packages 5.x
-      url: "!leaf_site_url!/bering-uclibc/index.php?module=pagemaster&amp;PAGE_user_op=view_page&amp;PAGE_id=30&amp;MMN_position=44:44"
+      url: "/bering-uclibc/packages_5.x/"
     
     - name: Documentation 3.x
       url: "!leaf_site_url!/doc"
