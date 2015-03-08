@@ -22,13 +22,15 @@ for a complete Changelog.
 <p>Find new images optimized for different architectures in the FRS:
 <a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/Bering-uClibc/5.2-beta2</a>
 <ul>
-<li>Bering-uClibc_5.2-beta2_geode_syslinux_ser.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards) </li>
+<li>Bering-uClibc_5.2-beta2_geode_syslinux_serial115200.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards) </li>
 
 <li>Bering-uClibc_5.2-beta2_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
 
 <li>Bering-uClibc_5.2-beta2_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
 
 <li>Bering-uClibc_5.2-beta2_i686_syslinux_vga.tar.gz - optimized for i686 CPU with VGA interface to load from hd/cf</li>
+
+<li>Bering-uClibc_5.2-beta2_i686_syslinux_serial115200.tar.gz - optimized for i686 CPU and seriell interface</li>
 
 <li>Bering-uClibc_5.2-beta2_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
 
@@ -37,6 +39,7 @@ for a complete Changelog.
 <li>Bering-uClibc_5.2-beta_x86_64_syslinux_vga.iso - optimized for
 64bit systems  with VGA interface to load from hd/cf</li>
 
-<li>Bering-uClibc_5.1.3_src.tgz - the complete sources tarball (as
-required by SF)</li>
+<li>Bering-uClibc_5.2-beta2_raspberry-pi.tar.gz - a tarball with support for the Raspberry Pi 1</li>
+
+<li>Bering-uClibc_5.2-beta2_src.tgz - the complete sources tarball (as required by SF)</li>
 </ul>
