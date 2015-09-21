@@ -26,11 +26,11 @@ for a complete Changelog.
 
 <li>Bering-uClibc_5.1.6_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
 
-<li>Bering-uClibc_5.1.61_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
+<li>Bering-uClibc_5.1.6_i486_isolinux_vga.iso - CD image optimized for i486 CPU with VGA interface</li>
 
 <li>Bering-uClibc_5.1.6_i686_syslinux_vga.tar.gz - optimized for i686 CPU with VGA interface to load from hd/cf</li>
 
-<li>Bering-uClibc_5.1.61_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
+<li>Bering-uClibc_5.1.6_i486_syslinux_vga.tar.gz - optimized for i486 CPU with VGA interface to load from hd/cf</li>
 
 <li>Bering-uClibc_5.1.6_x86_64_isolinux_vga.iso - CD image optimized for 64bit systems  with VGA interface</li>
 
