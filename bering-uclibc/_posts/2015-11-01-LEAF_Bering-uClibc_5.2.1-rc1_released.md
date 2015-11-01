@@ -30,8 +30,9 @@ See also
 for a complete Changelog.
 
 <p>Find new images optimized for different architectures in the FRS:
-<a href="https://sourceforge.net/projects/leaf/files/">https://sourceforge.net/projects/leaf/files/Bering-uClibc/5.2.1-rc1</a>
+<a href="https://sourceforge.net/projects/leaf/files/Bering-uClibc/5.2.1-rc1">https://sourceforge.net/projects/leaf/files/Bering-uClibc/5.2.1-rc1</a>
 <ul>
+
 <li>Bering-uClibc_5.2.1-rc1_geode_syslinux_serial115200.tar.gz - optimized for Geode CPU and seriell interface (e.g. ALIX Boards) </li>
 
 <li>Bering-uClibc_5.2.1-rc1_i686_syslinux_serial115200.tar.gz - optimized for i696 CPU and seriell interface (e.g. APU Boards) </li>
