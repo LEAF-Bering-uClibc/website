@@ -8,7 +8,7 @@ The release candidate of the first maintenance release of LEAF Bering-uclibc 5.2
 provides an updated kernel (4.1.12), security fixes (esp. ntp) and updated Packages for dbus, wpa_supplicant
 dbus, keepalived and monit.
 
-The config Package introduces a new upgrade script. It will alleviate upgrading your 
+The config Package introduces a new <b>upgrade</b> script. It will alleviate upgrading your 
 LEAF router to new versions. It offers downloading the Packages, kernel etc. from a 
 remote repository to your storage device, either merging config changes via patch or by 
 running apkg -u if config changes are detected, so the user can decide how to deal with
