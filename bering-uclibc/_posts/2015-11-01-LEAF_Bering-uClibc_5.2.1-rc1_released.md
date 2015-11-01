@@ -4,7 +4,7 @@ author: kapeka
 layout: post
 ---
 
-The release candidate of the first maintenance release of LEAF Bering-uclibc 5.2.1
+The release candidate of the first maintenance release of LEAF Bering-uclibc 5.2 (5.2.1)
 provides an updated kernel (4.1.12), security fixes (esp. ntp) and updated Packages for dbus, wpa_supplicant
 dbus, keepalived and monit.
 
