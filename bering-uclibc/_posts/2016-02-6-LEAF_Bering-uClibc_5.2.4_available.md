@@ -1,5 +1,5 @@
 ---
-title: LEAF Bering-uClibc 5.2.4- available
+title: LEAF Bering-uClibc 5.2.4 available
 author: kapeka
 layout: post
 ---
