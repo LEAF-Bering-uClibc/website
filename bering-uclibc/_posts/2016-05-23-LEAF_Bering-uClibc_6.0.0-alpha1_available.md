@@ -3,7 +3,9 @@ title: LEAF Bering-uClibc 6.0.0-alpha1 is available for testing
 author: kapeka
 layout: post
 ---
-It introduces the following major updates and features:
+LEAF Bering-uClibc 6.0.0-alpha1 is available for testing.
+It is the start of a major upgrade and provides significant improvements for LEAF Bering-uClibc.
+
 
 * uClibc has been upgraded to it successor uClibc-ng (version 1.0.14)
 * gcc has been updated to 5.3.0
