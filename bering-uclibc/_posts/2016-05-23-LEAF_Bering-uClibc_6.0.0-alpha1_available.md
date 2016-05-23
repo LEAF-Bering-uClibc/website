@@ -30,16 +30,16 @@ has added (requires libpam).
 The following stats gives a rough impression of the improvements:
 		
 Version 5.2.6-rc1
-boot time 	57 sec
-df (used RAM)	42%
-du /		16,9 MB
-kernel size	1,8 MB
+ boot time 	57 sec
+ df (used RAM)	42%
+ du /		16,9 MB
+ kernel size	1,8 MB
 
 Version 6.0.0-alpha1
-boot time	47 sec
-df (used RAM)	34%
-du /		13,7 MB
-kernel size	2,3 MB
+ boot time	47 sec
+ df (used RAM)	34%
+ du /		13,7 MB
+ kernel size	2,3 MB
 
 (done in Virtualbox with i486 ISO image default configuration, 
 boot time measured until login prompt is reached and includes 
