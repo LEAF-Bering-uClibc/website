@@ -10,12 +10,12 @@ It is the start of a major upgrade and provides significant improvements for LEA
 * uClibc has been upgraded to it successor uClibc-ng (version 1.0.14)
 * gcc has been updated to 5.3.0
 * kernel has been upgraded to the latest LTS version 4.4 (currently 4.4.11)
-* a wrap optimized kernel and serial image has been added
+* a WRAP optimized kernel and serial image has been added
 * Modules previously provided with initmod, installed by default and used to find
 the disks to load leaf.cfg has been moved into the kernel. initmod.lrp is history and gone.
 Modules not built into the kernel are now autodetected during startup if they are related
-to the harwdare, or defined in /etc/modules.
-In addition modules needed by a specific application can be loaded during applications init, 
+to the hardware, or defined in /etc/modules.
+In addition modules required by a specific application can be loaded during applications init, 
 like shorewall does.
 This simplifies modules handling, improves startup time and reuqired RAM (see example below).
 
@@ -23,7 +23,7 @@ Other significant updates has been made for perl (5.22.1), busybox (1.24.2), bas
 and shorewall (5.0.7.2).
 Minor updates are provided for dhcpcd, nano, rsync, util-linux and clamav.
 
-Openvpn and openvpnz has been merged into one package: openvpn - including
+openvpn and openvpnz has been merged into one package: openvpn - including
 lzo compression as default, previously openvpnz. Linux-PAM authentication support
 has added (requires libpam).
 
@@ -59,7 +59,7 @@ for a complete Changelog.
 
 <li>Bering-uClibc_6.0.0-alpha1_i486_syslinux_serial19200.tar.gz - optimized for i486 CPU and seriell interface </li>
 
-<li>Bering-uClibc_6.0.0-alpha1_wrap_syslinux_serial115200.tar.gz - optimized for WRAP systems and seriell interface (e.g PCEngines Wrap </li>
+<li>Bering-uClibc_6.0.0-alpha1_wrap_syslinux_serial115200.tar.gz - optimized for WRAP systems and seriell interface (e.g PCEngines WRAP</li>
 
 <li>Bering-uClibc_6.0.0-alpha1_i686_isolinux_vga.iso - CD image optimized for i686 CPU with VGA interface</li>
 
