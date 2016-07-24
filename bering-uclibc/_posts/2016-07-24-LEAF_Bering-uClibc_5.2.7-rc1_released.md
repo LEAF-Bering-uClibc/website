@@ -5,21 +5,17 @@ layout: post
 ---
 Bering-uClibc-5.2.7-rc1 is the release candidate for another  maintenance release of the
 Bering-uClibc 5.2 series.
-<p>
 It provides a kernel update to 4.1.27, updates for curl, squid, linbpng,
 mini_httpds and squid to latest upstream versions.
-</p>
-<p>
+
 An important security update for dropbear has been added, as well as changes to radvd
 to make radvd init file configurable and including the radvdump binary.
-</p>
-<p>
+
 The upgrade utility has been improved to use selective file extraction to save space
 during upgrades.
-</p>
-<p>
+
 Also the shorewall6 package has been added to leaf.cfg to be loaded by default.
-</p>
+
 See also
 <a href="{{ site.buc_wiki_url }}/Bering-uClibc_5.2.x_-_Changelog">Bering-uClibc_5.2.x_-_Changelog</a>
 for a complete Changelog.
