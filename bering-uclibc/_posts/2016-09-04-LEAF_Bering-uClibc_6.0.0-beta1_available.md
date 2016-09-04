@@ -4,7 +4,7 @@ author: kapeka
 layout: post
 ---
 
-With Bering-uClibc-6.0.0-beta1 the next major version of LEAF Bering-uClibc has raeched a 
+With Bering-uClibc-6.0.0-beta1 the next major version of LEAF Bering-uClibc has reached a 
 reasonable stable stadium.
 
 It is based on uClibc-ng 1.0.17 and the linux kernel version 4.4 (as today 4.4.19).
