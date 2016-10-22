@@ -38,19 +38,24 @@ log files and therefore only wasting (RAM) space.
 
 Most of the remaining packages has received updates to the latest
 upstream versions. 
+
 See https://bering-uclibc.zetam.org/wiki/Bering-uClibc_6.0.x_-_Changelog
 for more details.
 
 * Upgrade considerations
+
 Please note: Due to the removal of initmod upgrading from 5.x to 6.0.0 will not work as seamless
 as usual.
 If you don't setup a new router from scratch, be aware that you have to change syslinux.cfg otherwise 
 it may fail to boot.
 
 To get an upgrade properly done, you need to replace 
-DEFAULT linux initrd=/initrd.lrp,/initmod.lrp
+
+`DEFAULT linux initrd=/initrd.lrp,/initmod.lrp`
+
 with
-DEFAULT linux initrd=/initrd.lrp
+
+`DEFAULT linux initrd=/initrd.lrp`
 
 (See also https://bering-uclibc.zetam.org/wiki/Bering-uClibc_6.x_-_User_Guide_-_Appendices_-_Upgrading_from_Bering-uClibc_5.x)
 
