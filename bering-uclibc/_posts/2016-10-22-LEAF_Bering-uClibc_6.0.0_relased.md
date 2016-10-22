@@ -63,7 +63,7 @@ In the past the upgrade utility has been improved, but due to changes outlined a
 to use it to upgrade from 5.2.x to 6.0.0.
 As a result we do not offer 6.0.0 for the upcoming weeks. Once we add 6.0.0 to latest or stable,
 please do not use upgrade to update your 5.2.x router without taking the above made considerations seriously.
-It may work, if you change syslinux.cfg by hand, but it isn't recommended.
+It may work, if you change syslinux.cfg by hand, but it isn't recommended douing this without a proper backup or dual boot solution.
 
 With 6.0.0 becoming stable, the 5.2 series will be put on hold with one, final release left for 5.2.8.
 
