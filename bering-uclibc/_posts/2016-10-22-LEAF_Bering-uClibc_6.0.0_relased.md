@@ -39,7 +39,7 @@ log files and therefore only wasting (RAM) space.
 Most of the remaining packages has received updates to the latest
 upstream versions. 
 
-See https://bering-uclibc.zetam.org/wiki/Bering-uClibc_6.0.x_-_Changelog
+See [Bering-uClibc 6.0.x CHangelog](https://bering-uclibc.zetam.org/wiki/Bering-uClibc_6.0.x_-_Changelog)
 for more details.
 
 * Upgrade considerations
