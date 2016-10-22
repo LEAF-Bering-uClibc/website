@@ -57,7 +57,7 @@ with
 
 `DEFAULT linux initrd=/initrd.lrp`
 
-(See also [Bering-uClibc_6.x - User Guide - Appendices - Upgrading from Bering-uClibc_5.x ]https://bering-uclibc.zetam.org/wiki/Bering-uClibc_6.x_-_User_Guide_-_Appendices_-_Upgrading_from_Bering-uClibc_5.x)
+(See also [Bering-uClibc_6.x - User Guide - Appendices - Upgrading from Bering-uClibc_5.x](https://bering-uclibc.zetam.org/wiki/Bering-uClibc_6.x_-_User_Guide_-_Appendices_-_Upgrading_from_Bering-uClibc_5.x))
 
 In the past the upgrade utility has been improved, but due to changes outlined above it won't work
 to use it to upgrade from 5.2.x to 6.0.0.
