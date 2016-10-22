@@ -10,20 +10,30 @@ After a year development started and five month after the first alpha release
 a new major version of LEAF Bering-uClibc is considered stable.
 
 Major features of the 6.0.0 version are:
+
 * upgrading uClibc to uClibc-ng, receiving maintenance and regular updates (1.0.17)
+
 * upgrading to current LTS Linux kernel 4.4 (4.4.26)
+
 * initmod.lrp has been removed, after having been splitted from initrd.lrp four years ago.
 The kernel drivers previously loaded from initmod.lrp are now either included in the kernel or 
 will be loaded by demand, like shorewall init does.
 This way we free up RAM and it will improve boot time significantly. 
+
 * a new WRAP optimized kernel and image is provided
+
 * firmware is saved via local.lrp
+
 * logrotation has been improved (see /etc/logrotate.d/syslog)
 In addition /var/log/messages has been removed, previously containing entries also available in other 
 log files and therefore only wasting (RAM) space.
+
 * A new package libpam to support PAM access with openvpn has been added (Thx to dino muzic for his help getting that done)
+
 * perl has been updated to 5.24.0
+
 * The Raspberry image, still a proof of concept, supports booting with device tree (and overlays)
+
 * Support for PCEngines APU2 incl watchdog support and booting from SD card
 
 Most of the remaining packages has received updates to the latest
