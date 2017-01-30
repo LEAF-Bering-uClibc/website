@@ -4,9 +4,9 @@ layout: page
 ---
 General
 -------
-Bering-uClibc is a LEAF branch based on the Linux kernel 3.4 and [uClibc](http://uclibc.org/about.html). It is ipv6-ready and provides with apkg a new and enhanced package management.
+Bering-uClibc is a LEAF branch currently based on the Linux kernel 4.4 and [uClibc-ng](http://uclibc-ng.org). It is ipv6-ready and provides with apkg a new and enhanced package management.
 
-For the installation process and how to use additional packages read the [Bering-uClibc User Guide]({{ site.buc_wiki_url}}/Bering-uClibc_5.x_-_User_Guide)
+For the installation process and how to use additional packages read the [Bering-uClibc User Guide]({{ site.buc_wiki_url}}/Bering-uClibc_6.x_-_User_Guide)
 
 Available boot images and extensions
 ------------------------------------
@@ -20,8 +20,8 @@ More than 200 packages are available, to extend LEAF Bering-uClibc with capabili
 
 The [Packages page](http://leaf.sourceforge.net/bering-uclibc/index.php?module=pagemaster&PAGE_user_op=view_page&PAGE_id=12&MMN_position=32:32) contains a list of currently available packages.
 
-Please take a look at the [Changelog section]({{site.buc_wiki_url}}/Bering-uClibc_5.1.x_-_Changelog) to read about the latest changes on the base images.
+Please take a look at the [Changelog section]({{site.buc_wiki_url}}/Bering-uClibc_6.0.x_-_Changelog) to read about the latest changes on the base images.
  
 Sourcecode
 ----------
-The git repository contains the sources and a toolchain for the 5.x version, to build it yourself. The [Developer Guide]({{site.buc_wiki_url}}/Bering-uClibc_5.x_-_Developer_Guide) explains what's needed to compile your own packages.
+The git repository contains the sources and a toolchain for the 6.x version, to build it yourself. The [Developer Guide]({{site.buc_wiki_url}}/Bering-uClibc_6.x_-_Developer_Guide) explains what's needed to compile your own packages.
