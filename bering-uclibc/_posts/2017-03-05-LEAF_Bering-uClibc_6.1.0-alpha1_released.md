@@ -6,18 +6,18 @@ layout: post
 Bering-uClibc-6.1.0-alpha1 provides major updates for our build base, a
 major kernel upgrade and various other improvements.
 
-*uClibc-ng has been upgraded to 1.0.22
+uClibc-ng has been upgraded to 1.0.22
 
-*root.lrp and config.lrp has been merged into initrd.lrp
+root.lrp and config.lrp has been merged into initrd.lrp
 
-* the huge libinconv package (approx 600kb) has been replaced
+the huge libinconv package (approx 600kb) has been replaced
 by the uClibc-ng implementation (adding a few kb to initrd.lrp)
 
-* gcc has been updated to 5.4.0
+gcc has been updated to 5.4.0
 
-* binutils has been updated to 2.27
+binutils has been updated to 2.27
 
-* The kernel has been updated to new LTS version 4.9
+The kernel has been updated to new LTS version 4.9
 
 Two new packages has been added: 
 ca-certificates, providing  a list of Certification 
