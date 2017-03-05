@@ -9,6 +9,7 @@ major kernel upgrade and various other improvements.
 *uClibc-ng has been upgraded to 1.0.22
 
 *root.lrp and config.lrp has been merged into initrd.lrp
+
 * the huge libinconv package (approx 600kb) has been replaced
 by the uClibc-ng implementation (adding a few kb to initrd.lrp)
 
