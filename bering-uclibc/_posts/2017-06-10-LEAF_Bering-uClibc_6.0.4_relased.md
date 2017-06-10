@@ -12,7 +12,7 @@ package.
 
 The aiccu package has been removed.
 While it ran flawlessly for more than ten years, sixxs.net has been closed on 2017-06-06 and there is no need to provide 
-this package any longer. (See: https://www.sixxs.net/sunset/)
+this package any longer. (See: [https://www.sixxs.net/sunset/])
 We respect this decision and we owe them a lot for the outstanding work and help to move towards ipv6 networking!
 
 See [Bering-uClibc 6.0.x Changelog](https://bering-uclibc.zetam.org/wiki/Bering-uClibc_6.0.x_-_Changelog)
